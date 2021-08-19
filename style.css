@@ -1,0 +1,142 @@
+:root {
+  --black-text: #5e5e5e;
+  --work-bg: #f2f2f2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: var(--black-text);
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 35rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.hero-heading {
+  padding-top: 30vh;
+  color: var(--black-text);
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bolder;
+  letter-spacing: 0.35rem;
+  font-weight: 700;
+}
+
+.hero-desc {
+  font-size: 0.875em;
+  margin-top: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.35rem;
+}
+
+.hero-button {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 0.35rem;
+  font-size: 0.75rem;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.arrow {
+  border: solid var(--black-text);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.work {
+  background-color: var(--work-bg);
+  width: 100%;
+}
+
+.work-item {
+  padding-top: 2em;
+  padding-bottom: 0.5rem;
+}
+
+.work-image {
+  max-width: 100%;
+}
+
+.work-title {
+  color: var(--black-text);
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bolder;
+  letter-spacing: 0.35rem;
+  padding: 1em;
+  /* font-weight: 700; */
+}
+
+.work-desc {
+  font-size: 0.875em;
+  line-height: 2;
+  padding-bottom: 1.5em;
+}
+
+hr {
+  border-top: solid 1px #dbdbdb;
+}
+
+.about {
+	min-height: 60vh;
+	display: flex;
+	align-items: center;
+}
+
+.about-heading {
+	color: var(--black-text);
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bolder;
+	letter-spacing: 0.35rem;
+	font-weight: 700;
+	margin-bottom: 2em;
+}
+
+.about-desc {
+	font-size: 0.875em;
+	line-height: 2;
+	padding-bottom: 1.5em;
+}
+
+.about-link-holder {
+	display: flex;
+	justify-content: center;
+}
+
+.about-link {
+	display: inline;
+	height: 2em;
+	width: 2em;
+	border-radius: 100%;
+	border: 1px solid var(--black-text);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+}
+
+.about-link > svg {
+	height: 50%;
+	fill: var(--black-text);
+}
