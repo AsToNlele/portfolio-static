@@ -3,6 +3,16 @@
   --work-bg: #f2f2f2;
 }
 
+@font-face {
+	font-family: "Raleway";
+	src: url("Raleway-Regular.ttf");
+    }
+    @font-face {
+	font-family: "Raleway";
+	src: url("Raleway-Bold.ttf");
+	font-weight: bold;
+    }
+
 body {
   margin: 0;
   padding: 0;
